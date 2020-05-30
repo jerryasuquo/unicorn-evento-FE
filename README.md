@@ -1,10 +1,7 @@
-# unicorn-evento
-<<<<<<< HEAD
+# unicorn-evento-FE
 
 #Proposed Features/pages
-=======
->>>>>>> f24b6466acc7afa21d6abdda8489c6219fac89cd
- Frontend
+Frontend
  1. A landing page for evento (Page 1)
  2. Info page about all Halls (Hall info page)
  3. Info page has a booking button that prompts user to book the hall
@@ -30,3 +27,6 @@
  1.  Auth for Admin users (Event hall owners can register)
  2. Auth for Third party event vendors (third party event vendors can also register)
  3. Each users have halls (can get, post, update and delete halls)
+
+You can view the live site on: 
+https://jerryasuquo.github.io/unicorn-evento-FE/
