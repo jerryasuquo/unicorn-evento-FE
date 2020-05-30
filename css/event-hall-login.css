@@ -1,0 +1,107 @@
+*, *::before, *::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #141920;
+	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
+}
+
+.container {
+	display: flex;
+	background-color: white;
+	align-items: center;
+	justify-content: center;
+	margin: 7rem auto;
+	max-width: 350px;
+	height: 70vh;
+	flex-direction: column;
+	border-radius: 10px;
+}
+
+.header {
+	text-align: center !important;
+	font-size: 20px;
+	margin-bottom: 24px;
+	line-height: 25.6px;
+}
+
+.text_black {
+	color: rgb(20, 25, 32);
+	line-height: 28.8px;
+}
+
+.text_grey{
+	color: rgb(128, 138, 157);
+	line-height: 28.8px;
+}
+
+form {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+label {
+	display: block;
+	font-size:15px;
+	font-weight: 500;
+    color: #3c3c3c;
+}
+
+input {
+	background-color: #fff;
+	color: #495057;
+    height: 42px;
+    border: 10px;
+    width: 260px;
+    margin: 10px 10px 10px 0px;
+	border: 1px solid #c3c3c3;
+	border-radius: 5px;
+	outline: none;
+	text-indent: 5px;
+}
+
+input:hover{
+	border: 0.5px solid #30343E;
+	outline: none;
+}
+
+.login {
+    width: 150px;
+    height: 40px;
+	background: #008488;
+	border-radius: 10px;
+	margin: 0 auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+    border: 0;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+	cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(63,72,87,0.9);
+}
+
+.forgot_password {
+	margin-top: 10px;
+}
+
+.sign_up {
+	float: right;
+}
+
+
+@media only screen and (min-width: 300px) and (max-width: 380px) and (orientation: portrait){
+
+.container {
+	width: 95%;
+   
+}

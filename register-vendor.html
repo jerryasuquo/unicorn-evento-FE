@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/register.css">
+    <title>Registration Page</title>
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <div class="header">
+                <h3 class="header_title">
+                    <span class="text_black">Create an account</span>
+            </div>
+
+            <form action="" method="post">
+                <label for="fname">Full Name</label>
+                <input type="text" name="fname" id="fname" placeholder="Full Name" required>
+
+                <label for="email">Email Address</label>
+                <input type="email" name="email" id="email" placeholder="Email Address" required>
+
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" placeholder="Password" pattern=".{6,}"
+                    title="Must contain at least 6 characters" required>
+
+                <label for="services">Choose a service:</label>
+                <select name="services" id="service-select">
+                    <option value="">--Please choose an option--</option>
+                    <option value="dj">DJ</option>
+                    <option value="catering">Catering</option>
+                    <option value="cake baker">Cake Baker</option>
+                    <option value="photographer">Photographer</option>
+                    <option value="event ushers">Event Ushers</option>
+                </select>
+
+                <button type="submit" id="register"><a href="" class="reg">Register</a></button>
+
+            </form>
+        </div>
+    </main>
+</body>
+
+<script type="text/javascript">
+
+</script>
+
+</html>
